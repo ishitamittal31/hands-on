@@ -1,13 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: handson
-  description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  name: backstage-catalog-model
+  title: '@backstage/catalog-model'
+  description: Types and validators that help describe the model of a Backstage Catalog
 spec:
-  type: website
-  owner: john@example.com
-  lifecycle: experimental
+  lifecycle: production
+  type: backstage-common-library
+  owner: maintainers
